@@ -1,7 +1,7 @@
 # Herber Pucinelli Jr
 
 ![Static Badge](https://img.shields.io/badge/Status-In_Progress-blue)         
-![Static Badge](https://img.shields.io/badge/Directly-From_Sumar%C3%A9-red)
+![Static Badge](https://img.shields.io/badge/Directly-From_Sumare-red)
 
 
 
