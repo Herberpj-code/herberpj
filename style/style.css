@@ -4,8 +4,13 @@ body {
     background: #f7f7f7;
     font-family: Arial;
     height: 1000px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     justify-items: center;
+}
+
+header {
+    background-color: #d3d3d3;
+    width: 100%;
 }
 
 .nome {
@@ -18,6 +23,7 @@ body {
 
 .welceng {
     margin-top: 20px;
+    /* font-size: 2rem; */
 }
 
 .welcjap {
@@ -37,6 +43,7 @@ main {
 
 a {
     text-decoration: none;
+    margin-bottom: 60px;
 }
 
 p, h1, h2, h3 {
@@ -61,7 +68,37 @@ p {
     border-radius: 4px;
     color: black;
     text-transform: uppercase;
+    transition: 0.3s;
 }
+
+.menu a:hover {
+    background: #ffffffb6;
+    
+}
+
+/* .menu a:focus {
+    background: #cfa;
+    
+} */
+
+/* .menu a:first-child {
+    background: #ffff;
+}
+
+.menu a:last-child {
+    background: #ffff;
+} */
+
+.menu a:nth-child(3):hover {
+    background: #ffffffb6;  /* esse elemento da para usar os parametros selecionando o numero do elemento child(no exemplo o terceiro botão) ou Evens(Par) Odds(Impar) 3N(de 3 em 3), isso stacka com hover/focus, etc */
+}
+
+/* Esse codigo abaixo excluiria a alteração do first-child e last-child e aplicaria o estilo a todos, coloquei o exemplo ali da classe qualquer pois daria pra acrescentar uma classe para ser excluida da estilização também */
+/* .menu a:not(:first-child, :last-child, .classe_qualquer) {
+    background: #cfa;   
+} */
+
+
 
 .grid {
     display: grid;
