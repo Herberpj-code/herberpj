@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #d3d3d3;
+    background-color: #f3eeee;
     width: 100%;
 }
 
@@ -51,7 +51,7 @@ p, h1, h2, h3 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.2rem;
     line-height: 1.3;
 }
 
@@ -68,11 +68,13 @@ p {
     border-radius: 4px;
     color: black;
     text-transform: uppercase;
-    transition: 0.3s;
+    transition: 1s;
+    border: 2px solid #ffff;
 }
 
 .menu a:hover {
-    background: #ffffffb6;
+    background: #ffffff5d;
+    border: 2px solid black;
     
 }
 
@@ -117,7 +119,8 @@ p {
     justify-items: end;
 }
 
-.detalhe {
+.intro::before {
+    content:"";
     width: 60px;
     height: 4px;
     background: #e21;
@@ -143,7 +146,7 @@ p {
 }
 
 .conteudo {
-    font-size: 64px;
+    font-size: 4rem;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.2);
     padding: 40px;
@@ -154,8 +157,17 @@ p {
 .little {
     background: #ffff;
     padding: 40px;
+    border-left: 2px solid #ffff;
 
 }
+
+.little:hover {
+    border-left: 2px solid #e21;
+}
+
+/* .exemplo p:nth-child(odd){
+    background: #cfcdcd9f;
+} */
 
 .footerzin {
     margin-top: 100px;
