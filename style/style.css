@@ -175,23 +175,7 @@ img {
     display: block;
 }
 
-.responsivo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    margin-right: auto;
-    margin-left: auto;
-}
 
-.imagem img {
-    height: 100%;
-    object-fit: cover;
-}
-
-.texto {
-    max-width: 60ch;
-    align-self: center;
-}
 
 .footerzin {
     margin-top: 100px;
