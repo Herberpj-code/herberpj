@@ -169,6 +169,42 @@ p {
     background: #cfcdcd9f;
 } */
 
+
+img {
+    max-width: 100%;
+}
+
+.responsivo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.titulogurren {
+    grid-column: 1 / -1;
+}
+
+
+@media (max-width: 600px) {
+    .responsivo {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    html {
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 999px) {
+    html {
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
 .footerzin {
     margin-top: 100px;
     background: #ffff;
@@ -176,3 +212,4 @@ p {
     width: 100%;
     box-sizing: border-box;
 }
+
